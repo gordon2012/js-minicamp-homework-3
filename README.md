@@ -5,10 +5,23 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Objects
+		* In Javascript, objects are variable types that contain other variables in key value pairs, those values can be any variable type, including objects
 	* Properties
+		* Properties are the variables of an object, identified by their key.
 	* Methods
+		* Methods are properties of an object that are functions.
 	* for in loop
+		* The for in loop in Javascript is similar to a basic for loop but it iterates over an object's keys or an array's indices.
 	* dot notation vs bracket notation
+		* Circumstance will dictate wether to use dot or bracket notation to access an object's properties. Most of the time the dot notation will be used, such as:
+		``` js
+		object.height = 17;
+		```
+		When the key is stored in another variable however, bracket notation must be used:
+		``` js
+		var key = 'x';
+		object[key]+= 80;
+		```
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
