@@ -13,7 +13,7 @@
 	* for in loop
 		* The for in loop in Javascript is similar to a basic for loop but it iterates over an object's keys or an array's indices.
 	* dot notation vs bracket notation
-		* Circumstance will dictate wether to use dot or bracket notation to access an object's properties. Most of the time the dot notation will be used, such as:
+		* Circumstance will dictate whether to use dot or bracket notation to access an object's properties. Most of the time the dot notation will be used, such as:
 		``` js
 		object.height = 17;
 		```
